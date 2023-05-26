@@ -120,7 +120,7 @@ window.addEventListener('load', () => {
 
     //when user chooses to code
     document.getElementById('virtual-env').addEventListener('click', () => {
-        window.location.href = "http://localhost:5000/";
+        window.location.href = "https://ime-virtual-env-ishita.onrender.com/";
     })
 
     //when user chooses to use white board
