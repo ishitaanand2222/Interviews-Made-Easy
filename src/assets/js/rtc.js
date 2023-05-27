@@ -493,13 +493,15 @@ window.addEventListener('load', () => {
 
         //when user chooses to code
         document.getElementById('virtual-env').addEventListener('click', () => {
-            window.location.href = "http://localhost:5000/";
+            window.open("https://ime-virtual-env-ishita.onrender.com/", '_blank');
+            // window.location.href = "https://ime-virtual-env-ishita.onrender.com/";
         })
 
-        //when user chooses to use white board
+        //when user chooses to use white board 
         document.getElementById('white-board').addEventListener('click', () => {
-            window.location.href = "https://remo-white-board-ishita.onrender.com";
+            window.open("https://remo-white-board-ishita.onrender.com", '_blank');
         })
+
 
         //when user chooses to use github
         document.getElementById('github').addEventListener('click', () => {

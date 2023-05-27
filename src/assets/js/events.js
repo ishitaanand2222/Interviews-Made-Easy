@@ -118,14 +118,21 @@ window.addEventListener('load', () => {
         helpers.toggleModal('recording-options-modal', false);
     });
 
+    function openURLInNewTab(url) {
+        console.log("hello 2");
+        var win = window.open(url, '_blank');
+        win.focus();
+    }
+
     //when user chooses to code
     document.getElementById('virtual-env').addEventListener('click', () => {
-        window.location.href = "https://ime-virtual-env-ishita.onrender.com/";
+        window.open("https://ime-virtual-env-ishita.onrender.com/", '_blank');
+        // window.location.href = "https://ime-virtual-env-ishita.onrender.com/";
     })
 
     //when user chooses to use white board
     document.getElementById('white-board').addEventListener('click', () => {
-        window.location.href = "https://remo-white-board-ishita.onrender.com";
+        window.open("https://remo-white-board-ishita.onrender.com", '_blank');
     })
 
     //when user chooses to use white board
