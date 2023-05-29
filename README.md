@@ -21,14 +21,14 @@ Frontend of this application is developed using HTML, CSS and BOOTSTRAP.
 - Video Recording
 
 
-## Team Member
+## Team Members
 - Aarushi Agarwal (1900140100003)
 - Ishita Anand (1900140100048)
 - Mansi Gupta (1900140100062)
 
 ## Getting Started
-- Run `npm i`
-- `node app.js` or `npm start`
+- Run `npm i` or `npm install`
+- Then run `npm start`
 - Go to http://localhost:3000/ to open the home page
  
 ## Demo
