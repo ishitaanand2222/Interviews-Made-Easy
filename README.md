@@ -21,7 +21,7 @@ Frontend of this application is developed using HTML, CSS and BOOTSTRAP.
 - Video Recording
 
 
-### Team Member
+## Team Member
 - Aarushi Agarwal (1900140100003)
 - Ishita Anand (1900140100048)
 - Mansi Gupta (1900140100062)
